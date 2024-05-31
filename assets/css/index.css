@@ -43,6 +43,15 @@ img {
     max-width: 100%;
 }
 
+.site-btn{
+    border: none;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border-radius: 16px;
+    font-weight: 700;
+}
+
 .container {
     max-width: 1920px;
     width: 100%;
@@ -120,4 +129,38 @@ img {
 
 .header__logo {
     margin-right: auto;
+
+}
+.hero__title {
+    font-weight: 800px;
+    font-style: 70px;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 85px;
+    max-width: 837px;
+    margin-bottom: 24px;
+    color: var(--white-color);
+}
+.hero__text{
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 790px;
+    margin-bottom: 90px;
+    color: var(--white-color);
+}
+.hero__button{
+    padding: 18.57px 37.14px 18.57px 37.14px;
+    font-style: 23px;
+    line-height: 28px;
+}
+.hero{
+    background-image: url('../image/hero__bgimage.jpg');
+    background-repeat: no-repeat;
+    max-width: 1770px;
+    height: 620px;
+    margin: 50px 0;
+    background-size: cover;
+}
+.hero__content{
+    padding: 100px 0 0 80px;
 }

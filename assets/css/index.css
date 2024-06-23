@@ -50,7 +50,7 @@ img {
     max-width: 100%;
 }
 
-.site-btn {
+.site-btn{
     border: none;
     background-color: var(--orange-color);
     color: var(--white-color);
@@ -163,7 +163,8 @@ img {
     color: var(--white-color);
 }
 
-.hero__text {
+.hero__text{
+
     font-size: 24px;
     font-weight: 700;
     max-width: 790px;
@@ -171,13 +172,14 @@ img {
     color: var(--white-color);
 }
 
-.hero__button {
+
+.hero__button{
     padding: 18.57px 37.14px 18.57px 37.14px;
     font-style: 23px;
     line-height: 28px;
 }
 
-.hero {
+.hero{
     background-image: url('../image/hero__bgimage.jpg');
     background-repeat: no-repeat;
     max-width: 1770px;
@@ -518,4 +520,8 @@ img {
 }
 .application__content{
     display: flex;
+}
+
+.hero__content{
+    padding: 100px 0 0 80px;
 }

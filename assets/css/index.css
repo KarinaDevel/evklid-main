@@ -80,6 +80,19 @@ img {
     cursor: pointer;
 }
 
+.application__input {
+    height: 60px;
+    width: 570px;
+    background-color: var(--dark-grey-color);
+    border-radius: 16px;
+    color: var(--medium-grey-color);
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 25px;
+    padding: 0 0 0 24px;
+    border: none;
+}
+
 /* Header */
 
 .nav__list {
@@ -287,10 +300,11 @@ img {
 }
 
 /* Work */
-.work{
+.work {
     padding-bottom: 111px;
 }
-.work__content{
+
+.work__content {
     display: flex;
     justify-content: space-between;
 }
@@ -304,7 +318,8 @@ img {
     display: flex;
     margin-bottom: 45px;
 }
-.work__steps-li:hover{
+
+.work__steps-li:hover {
     color: var(--dark-orange-color);
     cursor: pointer;
 }
@@ -325,23 +340,182 @@ img {
 .work__btn {
     padding: 19px 38px;
 }
-.work__btn--border{
+
+.work__btn--border {
     border-radius: 16px;
     background-color: transparent;
     border: 1px solid var(--black-color);
 }
+
 .work__image {
     max-width: 100%;
     min-height: 100%;
     object-fit: cover;
     border-radius: 32px;
 }
-.work__right-side{
+
+.work__right-side {
     flex-basis: 50%;
     align-self: flex-end;
     max-height: 689px;
 }
-.work__left-btns{
+
+.work__left-btns {
     display: flex;
     gap: 32px;
+}
+
+/* Questions */
+.questions__title-main {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.question {
+    list-style-type: none;
+    border-bottom: 1px solid var(--medium-grey-color);
+
+}
+
+.question:first-child {
+    border-top: 1px solid var(--medium-grey-color);
+}
+
+.question__btn {
+    position: relative;
+    display: flex;
+    padding: 39px 0;
+    width: 100%;
+}
+
+.question__text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.question__icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--grey-color);
+    transform: translateY(-50%);
+    transition: background-color .3s, 0.6s ease, transform 0.3s, 0.6s ease;
+
+}
+
+.question__icon::after,
+.question__icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--black-color);
+    transition: background-color, .3 ease;
+}
+
+.question__icon::after {
+    width: 1px;
+    height: 31px;
+}
+
+.question__icon::before {
+    width: 31px;
+    height: 1px;
+}
+
+.question__text:last-child {
+    margin-bottom: 100px;
+}
+.question__text:last-child{
+    padding-bottom: 100px;
+}
+.question:last-child{
+    margin-bottom: 100px;
+}
+
+/* FOOTER */
+.application__container {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 50px 75px;
+}
+
+.application__left-side {
+}
+
+.application-evklogo {
+    background-color: transparent;
+    margin-bottom: 20px;
+
+}
+
+.application__option {
+    color: var(--white-color);
+    line-height: 36px;
+}
+
+.application__option:last-child {
+    margin-bottom: 90px;
+}
+
+.application__icon-proggrams:last-child {
+    margin-left: 25px;
+}
+
+.application__blank-header {
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 59px;
+    margin-bottom: 25px;
+}
+
+.application__blank-write {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 350px;
+
+}
+
+.application__options-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.application__message {
+    margin-bottom: 32px;
+    width: 570px;
+    height: 150px;
+    padding: 14px 0 104px 24px;
+}
+
+.application__blank-btn {
+    padding: 19px 38px;
+    max-width: 269px;
+}
+
+.application__right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.application__text-descr {
+    max-width: 363px;
+    margin-left: 236px;
+    color: var(--medium-grey-color);
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.application__content{
+    display: flex;
 }

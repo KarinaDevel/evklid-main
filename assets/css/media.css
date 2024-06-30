@@ -1,0 +1,176 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0 auto
+    }
+
+    .nav__burger {
+        display: flex;
+        position: relative;
+        z-index: 11;
+    }
+
+    .hero {
+        background-image: none;
+    }
+
+    .hero {
+        background-image: url('../image/hero__bgimage.jpg');
+        background-repeat: no-repeat;
+        max-width: 924px;
+        height: 668px;
+        background-size: cover;
+        border-radius: 32px;
+        margin-bottom: 35px;
+    }
+
+    .hero__content {
+        margin: 0 auto;
+    }
+
+    .hero__title {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 73px;
+        max-width: 770px;
+    }
+
+    .hero__text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        max-width: 660px;
+        margin-bottom: 60px;
+    }
+
+    .hero__button {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 28px;
+        padding: 18.57px 37.14px;
+    }
+
+    .about__title {
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .about__text {
+        max-width: 924px;
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+
+    .about__content {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about__left {
+        padding-top: 444px;
+    }
+
+    .about__image {
+        height: 640px;
+        border-radius: 32px;
+    }
+
+    .about__label {
+        height: 196px;
+    }
+
+    .about__description {
+        max-width: 454px;
+    }
+
+    .work__steps {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .work__consultation-descr {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .work__left-side {
+        flex: 1 1 50%;
+    }
+
+    .work__image {
+        height: 624px;
+        border-radius: 32px;
+    }
+
+    .work {
+        padding-bottom: 80px;
+    }
+
+    .question__text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        max-width: 670px;
+        text-align: left;
+    }
+
+    .questions {
+        margin-bottom: 80px;
+    }
+
+    .application__right-side {
+        display: none;
+    }
+
+    .application__options {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .application__blank-write {
+        margin-left: 132px;
+    }
+
+    .application__blank-header {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+    }
+
+    .application__nickname {
+        height: 60px;
+        width: 541px;
+    }
+
+    .application__email {
+        height: 60px;
+        width: 541px;
+    }
+
+    .application__message {
+        height: 121px;
+        width: 541px;
+        padding: 14px 0 90px 24px;
+        margin-bottom: 32px;
+    }
+    
+
+    .application__container {
+        padding: 50px;
+    }
+}

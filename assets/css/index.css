@@ -50,7 +50,7 @@ img {
     max-width: 100%;
 }
 
-.site-btn{
+.site-btn {
     border: none;
     background-color: var(--orange-color);
     color: var(--white-color);
@@ -95,10 +95,73 @@ img {
 
 /* Header */
 
+.nav__burger {
+    display: none;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    transition: outline .3s ease-in-out, outline-offset .3s ease-in-out;
+}
+
+.burger,
+.burger::after,
+.burger::before {
+    height: 3px;
+    width: 30px;
+    background-color: var(--black-color);
+    display: block;
+    transition: background-color .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.nav__burger:focus-visible {
+    outline: 2px solid var(--orange-color);
+    outline-offset: 5px;
+}
+
+.nav__burger:hover .burger,
+.nav__burger:hover .burger::after,
+.nav__burger:hover .burger::before {
+    background-color: var(--dark-orange-color);
+}
+
+.burger {
+    margin: 10px 0;
+    padding: 0;
+    border: none;
+    transition: background-color .2s ease-in-out;
+}
+
+.burger::before {
+    content: '';
+    position: relative;
+    top: -10px;
+}
+
+.burger::after {
+    content: '';
+    position: relative;
+    top: 7px;
+}
+
+.nav__burger.active .burger {
+    background-color: transparent;
+}
+
+.nav__burger.active .burger::before {
+    transform-origin: top left;
+    transform: rotate(45deg) translate3d(0px, 0px, 0);
+}
+
+.nav__burger.active .burger::after {
+    transform-origin: bottom left;
+    transform: rotate(-45deg) translate3d(0px, 1px, 0);
+}
+
 .nav__list {
     display: flex;
     gap: 85px;
 }
+
 
 .nav__link {
     font-size: 18px;
@@ -163,7 +226,7 @@ img {
     color: var(--white-color);
 }
 
-.hero__text{
+.hero__text {
 
     font-size: 24px;
     font-weight: 700;
@@ -173,13 +236,13 @@ img {
 }
 
 
-.hero__button{
+.hero__button {
     padding: 18.57px 37.14px 18.57px 37.14px;
     font-style: 23px;
     line-height: 28px;
 }
 
-.hero{
+.hero {
     background-image: url('../image/hero__bgimage.jpg');
     background-repeat: no-repeat;
     max-width: 1770px;
@@ -433,10 +496,12 @@ img {
 .question__text:last-child {
     margin-bottom: 100px;
 }
-.question__text:last-child{
+
+.question__text:last-child {
     padding-bottom: 100px;
 }
-.question:last-child{
+
+.question:last-child {
     margin-bottom: 100px;
 }
 
@@ -449,8 +514,6 @@ img {
     padding: 50px 75px;
 }
 
-.application__left-side {
-}
 
 .application-evklogo {
     background-color: transparent;
@@ -518,10 +581,11 @@ img {
     font-size: 16px;
     font-weight: 400;
 }
-.application__content{
+
+.application__content {
     display: flex;
 }
 
-.hero__content{
+.hero__content {
     padding: 100px 0 0 80px;
 }

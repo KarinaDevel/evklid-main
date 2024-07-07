@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 @media (max-width:1024px) {
     .container {
@@ -168,9 +168,170 @@
         padding: 14px 0 90px 24px;
         margin-bottom: 32px;
     }
-    
+
 
     .application__container {
         padding: 50px;
     }
+}
+
+@media (max-width:768px) {
+    .hero__content {
+        padding: 160px 40px;
+    }
+
+    .header__logo {
+        width: 150px;
+        height: 48px;
+    }
+
+    .hero__title {
+        max-width: 588px;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 61px;
+
+    }
+
+    .hero__text {
+        max-width: 588px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+
+    .hero__button {
+        height: 78px;
+        width: 280px;
+    }
+
+    .about__text {
+        margin-bottom: 60px;
+    }
+
+
+    .about__label {
+        padding: 34px 40px;
+        margin-bottom: 32px;
+    }
+
+    .about__label-text {
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+
+    .about__label-button {
+        margin-left: 47px;
+    }
+
+    .about__item {
+        background-size: 114px 99px;
+        min-height: 235px;
+        padding: 35px 46px 0 190px;
+    }
+
+    .about__description {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .work {
+        padding-bottom: 49px;
+    }
+
+    .work__work-title {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+    }
+
+    .work__steps {
+        gap: 144px;
+        margin-bottom: 50px;
+    }
+
+    .work__content {
+        flex-direction: column-reverse;
+    }
+
+
+    .work__right-side {
+
+        margin-bottom: 38px;
+    }
+
+
+    .work__image {
+        min-height: 100%;
+        height: 20%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .work__consultation-descr {
+        margin-bottom: 25px;
+    }
+
+    .question__text {
+        max-width: 559px;
+    }
+
+    .question:last-child {
+        margin-bottom: 111px;
+    }
+
+    .application__option {
+        display: none;
+    }
+
+    .application-evklogo {
+        width: 224px;
+        height: 72px;
+    }
+
+
+    .application__icon-proggrams {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .application__container {
+        padding-left: 50px;
+        justify-content: flex-start
+    }
+
+    .application__content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .application__blank-write {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .application__blank-header {
+        align-self: flex-start;
+    }
+
+    .application__nickname {
+        width: 570px;
+        height: 60px;
+    }
+
+    .application__email {
+        width: 570px;
+        height: 60px;
+    }
+
+    .application__message {
+        width: 570px;
+        height: 150px;
+    }
+
 }

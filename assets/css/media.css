@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 @media (max-width:1024px) {
     .container {
@@ -477,9 +477,9 @@
     }
 
     .application__blank-header {
-        font-size: 24px;
+        font-size: 40px;
         font-weight: 400;
-        line-height: 29px;
+        
     }
 
 
@@ -518,5 +518,8 @@
     .application__blank-write {
         margin-left: 0;
         margin-bottom: 30px;
+    }
+    .question:last-child {
+        margin-bottom: 60px;
     }
 }

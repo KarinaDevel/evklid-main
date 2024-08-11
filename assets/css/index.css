@@ -589,3 +589,118 @@ img {
 .hero__content {
     padding: 100px 0 0 80px;
 }
+.hero__button:hover{
+    background-color: var(--light-orange-color);
+}
+.hero__button:focus{
+    background-color: var(--light-orange-color);
+}
+.hero__button:active{
+    background-color: var(--dark-orange-color);
+}
+.about__label-button:hover{
+    background-color: var(--orange-color);
+}
+.about__label-button:focus{
+    background-color: var(--orange-color);
+}
+.about__label-button:active{
+    background-color: var(--dark-orange-color);
+}
+.work__btn:hover{
+    background-color: var(--light-orange-color);
+}
+.work__btn:focus{
+    background-color: var(--light-orange-color);
+}
+.work__btn:active{
+    background-color: var(--dark-orange-color);
+}
+.work__steps-li:hover{
+    color: var(--light-orange-color);
+}
+.work__steps-li:focus{
+   outline: 3px solid var(--light-orange-color);
+}
+.work__steps-li:active{
+    color: var(--orange-color);
+}
+.work__btn:hover{
+    background-color: var(--dark-grey-color);
+    color: var(--white-color);
+}
+.work__btn:focus{
+    background-color: var(--dark-grey-color);
+    color: var(--white-color);
+}
+.work__btn:active{
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.question:hover{
+    border-color: var(--orange-color);
+}
+.question__text:hover{
+    color: var(--orange-color);
+}
+.question__icon::before:hover{
+    background-color: var(--orange-color);
+}
+.question:focus{
+    outline: 1px solid var(--orange-color);
+}
+.question__text:focus{
+    color: var(--orange-color);
+}
+
+/* SEARCH */
+
+.header__search-btn:focus{
+    outline: 3px solid var(--orange-color);
+}
+
+.header__search:hover ellipse {
+  stroke: var(--orange-color);
+}
+
+.header__search:hover rect {
+  fill: var(--orange-color);
+}
+
+.header__search:active:not(:focus-visible) {
+    outline: none;
+  }
+  
+  .header__search:active:not(:focus-visible) ellipse {
+    stroke: var(--orange-color);
+  }
+  
+  .header__search:active:not(:focus-visible) rect {
+    fill: var(--orange-color);
+  }
+
+  .question__icon:focus{
+    background-color: var(--orange-color);
+  }
+  .question__icon:focus::after,
+.question__icon:focus::before {
+    background-color: var(--white-color);
+}
+
+.question__icon:hover{
+    background-color: var(--orange-color);
+  }
+  
+.question__icon:hover::after,
+.question__icon:hover::before {
+    background-color: var(--white-color);
+}
+.question__icon:active{
+    transform: translateY(-50%) rotate(45deg);
+    background-color: var(--grey-color);
+}
+
+.question__icon:active::after,
+.question__icon:active::before{
+    background-color: var(--black-color);
+}

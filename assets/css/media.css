@@ -1,0 +1,525 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0 auto
+    }
+
+    .nav__burger {
+        display: flex;
+        position: relative;
+        z-index: 11;
+    }
+
+    .hero {
+        background-image: none;
+    }
+
+    .hero {
+        background-image: url('../image/hero__bgimage.jpg');
+        background-repeat: no-repeat;
+        max-width: 924px;
+        height: 668px;
+        background-size: cover;
+        border-radius: 32px;
+        margin-bottom: 35px;
+    }
+
+    .hero__content {
+        margin: 0 auto;
+    }
+
+    .hero__title {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 73px;
+        max-width: 770px;
+    }
+
+    .hero__text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        max-width: 660px;
+        margin-bottom: 60px;
+    }
+
+    .hero__button {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 28px;
+        padding: 18.57px 37.14px;
+    }
+
+    .about__title {
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .about__text {
+        max-width: 924px;
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+
+    .about__content {
+        flex-direction: column;
+    }
+
+    .about__left {
+        padding-top: 444px;
+    }
+
+    .about__image {
+        height: 640px;
+        border-radius: 32px;
+    }
+
+    .about__label {
+        height: 196px;
+    }
+
+    .about__description {
+        max-width: 454px;
+    }
+
+    .work__steps {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .work__consultation-descr {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .work__left-side {
+        flex: 1 1 50%;
+    }
+
+    .work__image {
+        height: 624px;
+        border-radius: 32px;
+    }
+
+    .work {
+        padding-bottom: 80px;
+    }
+
+    .question__text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        max-width: 670px;
+        text-align: left;
+    }
+
+    .questions {
+        margin-bottom: 80px;
+    }
+
+    .application__right-side {
+        display: none;
+    }
+
+    .application__options {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .application__blank-write {
+        margin-left: 132px;
+    }
+
+    .application__blank-header {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+    }
+
+    .application__nickname {
+        height: 60px;
+        width: 541px;
+    }
+
+    .application__email {
+        height: 60px;
+        width: 541px;
+    }
+
+    .application__message {
+        height: 121px;
+        width: 541px;
+        padding: 14px 0 90px 24px;
+        margin-bottom: 32px;
+    }
+
+
+    .application__container {
+        padding: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero__content {
+        padding: 160px 40px;
+    }
+
+    .header__logo {
+        width: 150px;
+        height: 48px;
+    }
+
+    .hero__title {
+        max-width: 588px;
+        font-size: 50px;
+        font-weight: 800;
+        line-height: 61px;
+
+    }
+
+    .hero__text {
+        max-width: 588px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+
+    .hero__button {
+        height: 78px;
+        width: 280px;
+    }
+
+    .about__text {
+        margin-bottom: 60px;
+    }
+
+
+    .about__label {
+        padding: 34px 40px;
+        margin-bottom: 32px;
+    }
+
+    .about__label-text {
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+
+    .about__label-button {
+        margin-left: 47px;
+    }
+
+    .about__item {
+        background-size: 114px 99px;
+        min-height: 235px;
+        padding: 35px 46px 0 190px;
+    }
+
+    .about__description {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .work {
+        padding-bottom: 49px;
+    }
+
+    .work__work-title {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 59px;
+    }
+
+    .work__steps {
+        gap: 144px;
+        margin-bottom: 50px;
+    }
+
+    .work__content {
+        flex-direction: column-reverse;
+    }
+
+
+    .work__right-side {
+
+        margin-bottom: 38px;
+    }
+
+
+    .work__image {
+        min-height: 100%;
+        height: 20%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .work__consultation-descr {
+        margin-bottom: 25px;
+    }
+
+    .question__text {
+        max-width: 559px;
+    }
+
+    .question:last-child {
+        margin-bottom: 111px;
+    }
+
+    .application__option {
+        display: none;
+    }
+
+    .application-evklogo {
+        width: 224px;
+        height: 72px;
+    }
+
+
+    .application__icon-proggrams {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .application__container {
+        padding-left: 50px;
+        justify-content: flex-start
+    }
+
+    .application__content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .application__blank-write {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .application__blank-header {
+        align-self: flex-start;
+    }
+
+    .application__nickname {
+        width: 570px;
+        height: 60px;
+    }
+
+    .application__email {
+        width: 570px;
+        height: 60px;
+    }
+
+    .application__message {
+        width: 570px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 0 15px;
+    }
+
+    .header__logo {
+        width: 110px;
+        height: 35px;
+    }
+
+    .hero__content {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 20px 0 20px;
+    }
+
+    .hero {
+        margin-bottom: 60px;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about__text {
+        margin-bottom: 14px;
+    }
+
+    .about__image {
+        width: 416px;
+        height: 300px;
+        border-radius: 16px;
+        position: relative;
+        margin-bottom: 8px;
+    }
+
+    .about__label {
+        flex-direction: column;
+        background-color: transparent;
+        padding: 0;
+        /* padding-bottom: 45px; */
+        margin-bottom: 0;
+        height: 191px;
+
+    }
+
+
+    .about__label-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: var(--black-color);
+        text-align: left;
+        max-width: 400px;
+        margin-bottom: 0;
+    }
+
+    .about__left {
+        padding: 0;
+        flex-direction: column;
+        overflow: visible;
+        border-radius: 16px;
+        align-items: center;
+    }
+
+    .about__label-button {
+        color: var(--orange-color);
+        align-self: flex-start;
+        padding: 12px 44px;
+        margin-left: 0;
+    }
+
+    .about__item {
+        background-size: 64px 49px;
+        padding: 0;
+        background-position: 0 0;
+        padding-top: 62px;
+        border: none;
+    }
+
+    .about__right {}
+
+    .about__heading {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 4px;
+    }
+
+    .work__work-title {
+        margin-bottom: 20px;
+    }
+
+    .work__steps {
+        gap: 120px;
+        margin-bottom: 16px;
+    }
+
+    .work__right-side {
+        margin-bottom: 16px;
+    }
+
+    .work__consultation-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+
+    .work__btn {
+        padding: 12px 44px;
+
+    }
+
+    .work {
+        padding-bottom: 60px;
+    }
+
+    .questions__title-main {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    .question__text {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        max-width: 457px;
+    }
+
+    .questions {
+        margin-bottom: 60px;
+    }
+
+
+    .application__container {
+        padding: 33px 14px;
+    }
+
+    .application__blank-header {
+        font-size: 40px;
+        font-weight: 400;
+        
+    }
+
+
+    .application__nickname {
+        max-width: 500px;
+    }
+
+    .application__email {
+        max-width: 500px;
+    }
+
+    .application__message {
+        max-width: 500px;
+    }
+
+    .application__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .application__icon-proggrams {
+        margin-left: 40px;
+    }
+
+    .application__blank-btn{
+        margin-bottom: 30px;
+    }
+
+    .application__line {
+        width: 400px;
+        height: 1px;
+        background-color: rgb(65, 65, 65);;
+    }
+
+    .application__blank-write {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .question:last-child {
+        margin-bottom: 60px;
+    }
+}
